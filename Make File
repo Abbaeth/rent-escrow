@@ -1,0 +1,53 @@
+EDGE CASES YOU MUST TEST (BEFORE DEPLOYMENT)
+
+Funding
+
+    partial funding multiple times
+
+    exact funding
+
+    overfund attempt
+
+    fund after funded (should revert)
+
+Cancel
+
+    cancel with zero funded
+
+    cancel after partial fund
+
+    withdraw after cancel
+
+    double withdraw attempt
+
+Activation
+
+    activate before funded
+
+    activate by non-landlord
+
+Completion
+
+    complete before end date (after you add check)
+
+    complete with wrong funded amount
+
+    complete twice
+
+Withdraw
+
+    withdraw when zero
+
+    reentrancy attack simulation
+
+    withdraw both parties
+
+Dispute
+
+    raise dispute by random user
+
+    resolve by non-arbiter
+
+    resolve twice
+
+    resolve then withdraw
